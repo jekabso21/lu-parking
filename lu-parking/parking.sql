@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `parking` (
      citizenid       varchar(50)                  null,
      vehicle         varchar(50)                  null,
      hash            varchar(50)                  null,
-     mods            longtext collate utf8mb4_bin null,
+     info            longtext collate utf8mb4_bin null,
      plate           varchar(50)                  not null,
      position     text                                  not null
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
